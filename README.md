@@ -1,2 +1,3 @@
-# 5.6.5_Assessment
-Failed assessment -Flex boxing and direction
+# starter-joey-thinkful
+
+This repo contains the starter and solution code for the Joey Thinkful resume exercise.

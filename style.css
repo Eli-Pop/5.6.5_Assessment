@@ -1,0 +1,54 @@
+header
+{
+    background-color: darkblue;
+    color: white;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    margin-top: -22px;
+}
+
+h1
+{
+    font-size: 30;
+    padding-top: 10px;
+}
+
+a
+{
+    color: white;
+}
+
+li
+{
+    list-style: none;
+    flex-direction: row;
+}
+
+.group
+{
+    text-align: center;
+}
+
+/* For the mobile view, will have the anchors flex direct in a row*/
+ul
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: -30px;
+    margin-top: -15px;
+    padding-bottom: 10px;
+}
+
+header nav ul li a
+{
+    margin: 0 5px 0 0;
+    text-decoration: none;
+}
+
+@media all and (min-width: 600px)
+{
+    header
+    {
+        display: flex;
+    }
+}
